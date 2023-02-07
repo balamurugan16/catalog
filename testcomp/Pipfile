@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+sqlalchemy = "1.4.39"
+pymssql = "2.2.5"
+uvicorn = "*"
+pydantic = {extras = ["dotenv"], version = "*"}
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
